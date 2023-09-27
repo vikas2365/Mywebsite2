@@ -332,6 +332,8 @@ section{
     align-items: center;
     grid-gap: 2rem;  
     background: var(--section-bg-color);
+     margin-left: 50px;
+    width: 100%;
 
 }
 
@@ -490,6 +492,8 @@ section{
 
 .skills{
     background: var(--section-bg-color);
+    margin-left: 50px;
+    width: 100%;
 }
 
 .skill-main{
