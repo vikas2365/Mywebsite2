@@ -369,6 +369,7 @@ section{
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    text-align: justify;
 
 }
 
@@ -537,17 +538,17 @@ section{
 }
 
 .skill-bar .bar .ethical{
-    width: 46%;
+    width: 78%;
     animation: ethical 1s;
 }
 
 .skill-bar .bar .html{
-    width: 86%;
+    width: 89%;
     animation: html 2s;
 }
 
 .skill-bar .bar .css{
-    width: 82%;
+    width: 86%;
     animation: css 3s;
 }
 
@@ -557,7 +558,7 @@ section{
 }
 
 .skill-bar .bar .python{
-    width: 70%;
+    width: 83%;
     animation: python 5s;
 }
 
@@ -567,7 +568,7 @@ section{
 }
 
 .skill-bar .bar .linux{
-    width: 68%;
+    width: 79%;
     animation: linux 7s;
 }
 
@@ -970,7 +971,7 @@ skill Right */
         width: 0%;
     }
     100%{
-        width: 46%;
+        width: 78%;
     }
 }
 
@@ -979,7 +980,7 @@ skill Right */
         width: 0%;
     }
     100%{
-        width: 86%;
+        width: 89%;
     }
 }
 
@@ -989,7 +990,7 @@ skill Right */
         width: 0%;
     }
     100%{
-        width: 82%;
+        width: 86%;
     }
 }
 
@@ -1009,7 +1010,7 @@ skill Right */
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 83%;
     }
 }
 
@@ -1029,7 +1030,7 @@ skill Right */
         width: 0%;
     }
     100%{
-        width: 68%;
+        width: 79%;
     }
 }
 
