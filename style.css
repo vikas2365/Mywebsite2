@@ -417,16 +417,7 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-/* Main text styles */
+/* Main text styles*/
 .mai-text {
     width: 100%;
     text-align: center;
@@ -447,25 +438,7 @@ section{
     text-transform: uppercase;
   }
   
-  /* Service boxes container */
-  .section-services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Fixed typo: changed 'flex' to 'wrap' */
-    gap: 2rem; /* Changed 'grid-gap' to 'gap' */
-  }
   
-  /* Individual service box styles */
-  .service-box {
-    flex: 1 1 18rem;
-    padding: 2rem 1rem;
-    text-align: center;
-    background: var(--section-bg-color);
-    transition: transform 0.4s;
-    border-radius: 10px;
-    cursor: pointer; /* Added cursor pointer on hover */
-  }
   
   .service-btn {
     width: auto;
@@ -492,28 +465,74 @@ section{
     outline: 3px solid var(--bg-color);
   }
   
-  .service-box h3 {
-    margin-top: 10px;
+
+
+
+
+
+
+
+
+
+
+
+   
+
+  .service-box {
+    flex: 1 1 18rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: var(--section-bg-color);
+    transition: transform 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 18rem; /* Fixed width */
+    height: 25rem; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.service-box i {
+    font-size: 2.5rem; /* Size of the icon */
+    margin-bottom: 1rem;
+}
+
+.service-box h3 {
     font-size: 1.5rem;
-  }
-  
-  .service-box p {
-    margin: 0.5rem 0 1.5rem 0;
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: #fdfdfd;
-    line-height: 1.6;
-    text-align: justify;
-  }
-  
+    margin-bottom: 1rem;
+}
 
+.service-box p {
+    font-size: 1rem;
+    flex-grow: 1; /* Allows text to take up space */
+    margin-bottom: 1.5rem;
+   text-align: justify;
+}
 
+.btn-box {
+    margin-top: 1rem;
+}
 
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
 
+.btn:hover {
+    background-color: var(--button-hover-bg-color);
+}
 
-
-
-
+.section-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
 
 
@@ -570,7 +589,7 @@ section{
 }
 
 .skill-bar .bar .ethical{
-    width: 78%;
+    width: 93%;
     animation: ethical 1s;
 }
 
@@ -585,7 +604,7 @@ section{
 }
 
 .skill-bar .bar .javasript{
-    width: 40%;
+    width: 79%;
     animation: javascript 4s;
 }
 
@@ -594,14 +613,26 @@ section{
     animation: python 5s;
 }
 
+.skill-bar .bar .c{
+    width: 70%;
+    animation: c 6s;
+}
+
+
 .skill-bar .bar .c-n{
     width: 75%;
-    animation: c-n 6s;
+    animation: c-n 7s;
 }
 
 .skill-bar .bar .linux{
     width: 79%;
-    animation: linux 7s;
+    animation: linux 8s;
+}
+
+
+.skill-bar .bar .canva{
+    width: 87%;
+    animation: canva 9s;
 }
 
 
@@ -653,8 +684,8 @@ skill Right
 
 .radial-bars .radial-bar{
     width: 50%;
-    height: 170px;
-    margin-bottom:10px ;
+    height: 176px;
+    margin-bottom:20px ;
     position: relative;
 }
 
@@ -1075,7 +1106,7 @@ skill Right
         width: 0%;
     }
     100%{
-        width: 78%;
+        width: 93%;
     }
 }
 
@@ -1104,7 +1135,7 @@ skill Right
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 79%;
     }
 }
 
@@ -1115,6 +1146,16 @@ skill Right
     }
     100%{
         width: 83%;
+    }
+}
+
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
     }
 }
 
@@ -1135,6 +1176,15 @@ skill Right
     }
     100%{
         width: 79%;
+    }
+}
+
+@keyframes canva{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%;
     }
 }
 
